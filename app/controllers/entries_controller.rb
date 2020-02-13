@@ -6,5 +6,6 @@ class EntriesController < ApplicationController
 
   def show
     @entry = Entry.find(params["id"])
+    p params
   end 
 end
